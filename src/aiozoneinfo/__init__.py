@@ -31,3 +31,6 @@ async def async_get_time_zone(time_zone_str: str) -> zoneinfo.ZoneInfo:
     ) or await asyncio.get_running_loop().run_in_executor(
         None, get_time_zone, time_zone_str
     )
+
+
+__all__ = ["async_get_time_zone"]
