@@ -46,6 +46,14 @@ Install this via pip (or your favourite package manager):
 
 `pip install aiozoneinfo`
 
+## Usage
+
+This module is very simple and only has one public method `async_get_time_zone`. `async_get_time_zone` will fetch the ZoneInfo from the internal cache, or construct it in the executor to avoid doing blocking I/O in the event loop to load the zone info from disk.
+
+```python
+zone_info = await async_get_time_zone("America/Los_Angeles")
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
