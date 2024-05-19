@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aiozoneinfo"
-version = "0.0.0"
+version = "0.1.0"
 description = "Tools to fetch zoneinfo with asyncio"
 authors = ["J. Nick Koston <nick@koston.org>"]
 license = "Apache Software License 2.0"
