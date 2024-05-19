@@ -29,5 +29,5 @@ async def async_get_time_zone(time_zone_str: str) -> zoneinfo.ZoneInfo:
     return CachedZoneInfo.get_cached_zone_info(  # type: ignore[return-value]
         time_zone_str
     ) or await asyncio.get_running_loop().run_in_executor(
-        None, zoneinfo.ZoneInfo, time_zone_str
+        None, get_time_zone, time_zone_str
     )
