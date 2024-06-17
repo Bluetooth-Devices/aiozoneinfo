@@ -1,5 +1,9 @@
 import pytest
-import zoneinfo
+
+try:
+    import zoneinfo
+except ImportError:
+    from backports import zoneinfo  # type: ignore[no-redef]
 
 from aiozoneinfo import async_get_time_zone
 
