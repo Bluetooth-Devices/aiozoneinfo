@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.0 (2024-06-17)
+
+### Feature
+
+- Add python 3.8 support (#2) ([`9e2d15c`](https://github.com/Bluetooth-Devices/aiozoneinfo/commit/9e2d15cb8cbd3177e568e80d7e44df0fc751be9e))
+
 ## v0.1.0 (2024-05-19)
 
 ### Feature
