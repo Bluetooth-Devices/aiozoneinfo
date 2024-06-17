@@ -5,7 +5,10 @@ __version__ = "0.0.0"
 import asyncio
 import weakref
 
-import zoneinfo
+try:
+    import zoneinfo
+except ImportError:
+    from backports import zoneinfo  # type: ignore[no-redef]
 
 
 class CachedZoneInfo(zoneinfo.ZoneInfo):
