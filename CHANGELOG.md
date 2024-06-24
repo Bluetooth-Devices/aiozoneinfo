@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.1 (2024-06-24)
+
+### Fix
+
+- Fix license classifier (#3) ([`87bfc29`](https://github.com/Bluetooth-Devices/aiozoneinfo/commit/87bfc29448ab6c9915428a263da62aadda8dbf48))
+
 ## v0.2.0 (2024-06-17)
 
 ### Feature
