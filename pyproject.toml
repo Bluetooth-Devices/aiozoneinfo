@@ -23,7 +23,7 @@ packages = [
 "Changelog" = "https://github.com/bluetooth-devices/aiozoneinfo/blob/main/CHANGELOG.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 tzdata = ">=2024.1"
 "backports.zoneinfo" = { version = ">=0.2.0", markers = "python_version < '3.9'" }
 
