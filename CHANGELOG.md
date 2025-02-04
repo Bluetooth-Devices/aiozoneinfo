@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.2.3 (2025-02-04)
+
+### Fix
+
+
+- Force re-release due to gha timeouts ([`9347abf`](https://github.com/Bluetooth-Devices/aiozoneinfo/commit/9347abfdadea687e4400509250b3a44995c31a7d))
+
+
 ## v0.2.2 (2025-02-04)
 
 ### Fix
