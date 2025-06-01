@@ -7,7 +7,7 @@
 project = "aiozoneinfo"
 copyright = "2024, J. Nick Koston"
 author = "J. Nick Koston"
-release = "0.2.3"
+release = "1.0.0-rc.1"
 
 # General configuration
 extensions = [
